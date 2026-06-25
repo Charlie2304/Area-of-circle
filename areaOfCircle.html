@@ -1,0 +1,20 @@
+<html>
+<head>
+<title>Area of Circle</title>
+<script>
+function area_of_circle()
+{
+    var radius = document.getElementById("T1").value;
+   // var area = Math.round(3.142 * radius * radius * 100) / 100;
+	 var area = 3.142 * radius * radius;
+    alert('Area of a circle = ' + area);
+}
+</script>
+</head>
+<body>
+<h2>Area of a circle</h2>
+<label>Enter Radius:</label>
+<input type="text" id="T1"><br><br>
+<button onclick="area_of_circle()">Calculate area</button>
+</body>
+</html>
